@@ -11,7 +11,9 @@ import UIKit
 public struct TabPageOption {
 
     public init() {}
-
+    
+    public var highlightedFont: UIFont?
+    public var unhighlightedFont: UIFont?
     public var fontSize = UIFont.systemFontSize()
     public var currentColor = UIColor(red: 105/255, green: 182/255, blue: 245/255, alpha: 1.0)
     public var defaultColor = UIColor(red: 153/255, green: 153/255, blue: 153/255, alpha: 1.0)
